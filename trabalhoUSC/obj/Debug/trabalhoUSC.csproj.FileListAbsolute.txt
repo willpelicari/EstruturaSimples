@@ -1,0 +1,2 @@
+c:\users\wiltonpelicari\documents\visual studio 2013\Projects\trabalhoUSC\trabalhoUSC\bin\Debug\trabalhoUSC.exe.config
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe.config
