@@ -24,9 +24,9 @@ C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csproj.GenerateResource.Cache
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.baml
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.g.cs
-C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csprojResolveAssemblyReference.cache
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.baml
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.g.cs
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEncadeada.baml
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEncadeada.g.cs
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg

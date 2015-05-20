@@ -3,10 +3,21 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="FilaEncadeada" Height="350" Width="525">
     <Grid>
-        <ListBox x:Name="listBoxFila" HorizontalAlignment="Left" Height="309" Margin="84,0,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="232,41,0,0" VerticalAlignment="Top" Width="75" Click="btnAdd_Click"/>
-        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="232,66,0,0" VerticalAlignment="Top" Width="75" Click="btnDelete_Click"/>
-        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="232,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86"/>
+        <ListBox x:Name="listBoxFila" HorizontalAlignment="Left" Height="59" Margin="24,146,0,0" VerticalAlignment="Top" Width="466">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+        <Button x:Name="btnAdd" Content="Adicionar Pessoa" HorizontalAlignment="Left" Margin="55,256,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
+        <Button x:Name="btnDelete" Content="Andar Fila" HorizontalAlignment="Left" Margin="55,281,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
+        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="130,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
+        <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label Content="Fila do Cinema:" HorizontalAlignment="Left" Margin="22,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Escreva um nome:" HorizontalAlignment="Left" Margin="22,225,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="A Estrutura &quot;Fila&quot; é bastante conhecida no dia-a-dia. No banco, no cinema, na saída da universidade você está fazendo parte de uma estrutura onde o 'dado' é você. Adicione alguns nomes abaixo e veja como uma fila naturalmente funciona." VerticalAlignment="Top" Margin="24,67,-2,0"/>
 
     </Grid>
 </Window>
