@@ -1,12 +1,18 @@
 ﻿<Window x:Class="trabalhoUSC.PilhaEncadeadaWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="PilhaEncadeada" Height="350" Width="525">
+        Title="Pilha de Pratos - Pilha Encadeada" Height="350" Width="525">
     <Grid>
-        <ListBox x:Name="listBoxPilha" HorizontalAlignment="Left" Height="309" Margin="84,0,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="232,41,0,0" VerticalAlignment="Top" Width="75" Click="btnAdd_Click"/>
-        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="232,66,0,0" VerticalAlignment="Top" Width="75" Click="btnDelete_Click"/>
-        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="232,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86"/>
+        <ListBox x:Name="listBoxPilha" HorizontalAlignment="Left" Height="268" Margin="10,41,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnAdd" Content="Adicionar Prato Sujo" HorizontalAlignment="Left" Margin="125,251,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
+        <Button x:Name="btnDelete" Content="Limpar um Prato" HorizontalAlignment="Left" Margin="125,276,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
+        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="247,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" KeyDown="enterPrato"/>
+        <Label Content="Pilha de Pratos" HorizontalAlignment="Left" Margin="16,15,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
+        <Label Content="Escreva um Prato:" HorizontalAlignment="Left" Margin="139,220,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="125,115,0,0" Width="374"><Run Text="A Estrutura &quot;"/><Run Language="pt-br" Text="Pilha"/><Run Text="&quot; é ba"/><Run Language="pt-br" Text="stante conhecida no dever de casa menos desejado por todos"/><Run Text=". "/><Run Language="pt-br" Text="Nas louças sujas"/><Run Text=", "/><Run Language="pt-br" Text="nas cartas do baralho"/><Run Text=", "/><Run Language="pt-br" Text="no montinho nos seus amigos."/><Run Text=" "/><Run Language="pt-br" Text="Imagine que você está em um restaurante e pratos estão sendo adicionado nessa pilha ao lado"/><Run Text=". "/><Run Language="pt-br" Text="Adicione alguns pratos do seu restaurante abaixo para entender como funciona."/><Run Text=""/></TextBlock>
+        <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label Content="PILHA" HorizontalAlignment="Left" Margin="261,60,0,0" VerticalAlignment="Top" Width="70" FontSize="20" FontWeight="Bold"/>
 
     </Grid>
 </Window>

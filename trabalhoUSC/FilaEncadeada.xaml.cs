@@ -25,6 +25,15 @@ namespace trabalhoUSC
         public FilaEncadeadaWindow()
         {
             InitializeComponent();
+            Texto.Focus();
+        }
+
+        private void enterPessoa(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                this.btnAdd_Click(sender, e);
+            }
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
