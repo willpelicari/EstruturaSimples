@@ -56,10 +56,8 @@ namespace trabalhoUSC
                 MessageBox.Show("A pilha está vazia, não?", "Pilha Vazia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            for (int i=qtde;i>0;i--)
-                elementos[qtde] = elementos[qtde - 1];
-            MessageBox.Show('"' + elementos[qtde] + "\" foi lavado.", "Lavando Louça", MessageBoxButtons.OK);
-            elementos[qtde] = "";
+            MessageBox.Show('"' + elementos[qtde-1] + "\" foi lavado.", "Lavando Louça", MessageBoxButtons.OK);
+            elementos[qtde - 1] = "";
             qtde--;
         }
     }
