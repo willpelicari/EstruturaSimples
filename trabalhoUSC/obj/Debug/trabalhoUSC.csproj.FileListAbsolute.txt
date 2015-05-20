@@ -13,3 +13,20 @@ C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\ob
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csproj.GenerateResource.Cache
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.exe
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.pdb
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.exe
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.pdb
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.pdb
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\App.g.cs
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC_MarkupCompile.cache
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.g.resources
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.Properties.Resources.resources
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csproj.GenerateResource.Cache
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.baml
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.g.cs
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csprojResolveAssemblyReference.cache
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.baml
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.g.cs
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEncadeada.baml
+C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEncadeada.g.cs

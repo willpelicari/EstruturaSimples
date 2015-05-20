@@ -19,10 +19,10 @@ namespace trabalhoUSC
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     /// 
-    public partial class MainWindow : Window
+    public partial class FilaEncadeadaWindow : Window
     {
         FilaEncadeada Fila = new FilaEncadeada();
-        public MainWindow()
+        public FilaEncadeadaWindow()
         {
             InitializeComponent();
         }
@@ -36,6 +36,8 @@ namespace trabalhoUSC
                 {
                     listBoxFila.Items.Add(Fila.getElemento(i));
                 }
+            Texto.Clear();
+            Texto.Focus();
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
