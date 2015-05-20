@@ -56,10 +56,12 @@ namespace trabalhoUSC
                 MessageBox.Show("A fila parece vazia, não?", "Fila Vazia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            for (int i=0;i<qtde;i++)
-                elementos[i]=elementos[i+1];
-            MessageBox.Show('"' + elementos[qtde] + "\" entrou no cinema.", "Entrando no Cinema", MessageBoxButtons.OK);
-            elementos[qtde] = "";
+            MessageBox.Show('"' + elementos[0] + "\" entrou no cinema.", "Entrando no Cinema", MessageBoxButtons.OK);
+            for (int i = 0; i < qtde; i++)
+                if (i == 19)
+                    elementos[19] = "";
+                else
+                    elementos[i] = elementos[i + 1];
             qtde--;
         }
     }
