@@ -26,13 +26,13 @@ namespace trabalhoUSC
 
         private void filaEncadeadaButton_Click(object sender, RoutedEventArgs e)
         {
-            FilaEncadeadaWindow filaencadeada = new FilaEncadeadaWindow();
+            FilaEstaticaWindow filaencadeada = new FilaEstaticaWindow();
             filaencadeada.Show();
         }
 
         private void pilhaEncadeadaButton_Click(object sender, RoutedEventArgs e)
         {
-            PilhaEncadeadaWindow pilhaencadeada = new PilhaEncadeadaWindow();
+            PilhaEstaticaWindow pilhaencadeada = new PilhaEstaticaWindow();
             pilhaencadeada.Show();
         }
     }

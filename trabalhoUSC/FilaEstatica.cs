@@ -7,12 +7,12 @@ using System.Windows.Forms;
 
 namespace trabalhoUSC
 {
-    class FilaEncadeada
+    class FilaEstatica
     {
         private const int Maximo = 20;
         private string[] elementos = new string[Maximo];
         private int qtde;
-        public FilaEncadeada()
+        public FilaEstatica()
         {
             Clear();
         }

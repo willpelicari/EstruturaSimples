@@ -1,7 +1,7 @@
-﻿<Window x:Class="trabalhoUSC.FilaEncadeadaWindow"
+﻿<Window x:Class="trabalhoUSC.FilaEstaticaWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Fila do Cinema - Fila Encadeada" Height="350" Width="525">
+        Title="Fila do Cinema - Fila Estática" Height="350" Width="525">
     <Grid>
         <ListBox x:Name="listBoxFila" HorizontalAlignment="Left" Height="59" Margin="24,146,0,0" VerticalAlignment="Top" Width="466">
             <ListBox.ItemsPanel>
