@@ -19,16 +19,16 @@ namespace trabalhoUSC
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     /// 
-    public partial class PilhaEncadeadaWindow : Window
+    public partial class FilaEstaticaWindow : Window
     {
-        PilhaEncadeada Pilha = new PilhaEncadeada();
-        public PilhaEncadeadaWindow()
+        FilaEstatica Fila = new FilaEstatica();
+        public FilaEstaticaWindow()
         {
             InitializeComponent();
             Texto.Focus();
         }
 
-        private void enterPrato(object sender, KeyEventArgs e)
+        private void enterPessoa(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Return)
             {
@@ -38,12 +38,12 @@ namespace trabalhoUSC
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            listBoxPilha.Items.Clear();
-            Pilha.Add(Texto.Text);
-            for (int i=Pilha.qtde-1;i>=0;i--)
-                if (Pilha.getElemento(i)!="")
+            listBoxFila.Items.Clear();
+            Fila.Add(Texto.Text);
+            for (int i=0;i<20;i++)
+                if (Fila.getElemento(i)!="")
                 {
-                    listBoxPilha.Items.Add(Pilha.getElemento(i));
+                    listBoxFila.Items.Add(Fila.getElemento(i));
                 }
             Texto.Clear();
             Texto.Focus();
@@ -51,12 +51,12 @@ namespace trabalhoUSC
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            listBoxPilha.Items.Clear();
-            Pilha.Delete();
-            for (int i = Pilha.qtde-1; i >= 0; i--)
-                if (Pilha.getElemento(i) != "")
+            listBoxFila.Items.Clear();
+            Fila.Delete();
+            for (int i = 0; i < 20; i++)
+                if (Fila.getElemento(i) != "")
                 {
-                    listBoxPilha.Items.Add(Pilha.getElemento(i));
+                    listBoxFila.Items.Add(Fila.getElemento(i));
                 }
         }
     }

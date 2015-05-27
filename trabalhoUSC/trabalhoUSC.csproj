@@ -55,18 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="FilaEncadeada.cs">
+    <Compile Include="FilaEstatica.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FilaEncadeada.xaml.cs">
-      <DependentUpon>FilaEncadeada.xaml</DependentUpon>
+    <Compile Include="FilaEstatica.xaml.cs">
+      <DependentUpon>FilaEstatica.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PilhaEncadeada.cs" />
-    <Compile Include="PilhaEncadeada.xaml.cs" />
+    <Compile Include="ListaEstatica.cs" />
+    <Compile Include="PilhaEstatica.cs" />
+    <Compile Include="PilhaEstatica.xaml.cs" />
     <Compile Include="TrabalhoUsc.xaml.cs">
       <DependentUpon>TrabalhoUsc.xaml</DependentUpon>
     </Compile>
-    <Page Include="FilaEncadeada.xaml">
+    <Page Include="FilaEstatica.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -74,7 +75,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PilhaEncadeada.xaml">
+    <Page Include="PilhaEstatica.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

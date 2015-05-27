@@ -4,8 +4,6 @@ C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bi
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.pdb
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csprojResolveAssemblyReference.cache
-C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\MainWindow.baml
-C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\MainWindow.g.cs
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\App.g.cs
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC_MarkupCompile.cache
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.g.resources
@@ -30,3 +28,10 @@ C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEncadeada.baml
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEncadeada.g.cs
 C:\Users\WiltonPelicari\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEstatica.baml
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.baml
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEstatica.g.cs
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.g.cs
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.baml
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.g.cs
