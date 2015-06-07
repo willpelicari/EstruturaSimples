@@ -24,16 +24,16 @@ namespace trabalhoUSC
             InitializeComponent();
         }
 
-        private void filaEncadeadaButton_Click(object sender, RoutedEventArgs e)
+        private void filaEstaticaButton_Click(object sender, RoutedEventArgs e)
         {
-            FilaEstaticaWindow filaencadeada = new FilaEstaticaWindow();
-            filaencadeada.Show();
+            FilaEstaticaWindow filaestatica = new FilaEstaticaWindow();
+            filaestatica.Show();
         }
 
-        private void pilhaEncadeadaButton_Click(object sender, RoutedEventArgs e)
+        private void pilhaEstaticaButton_Click(object sender, RoutedEventArgs e)
         {
-            PilhaEstaticaWindow pilhaencadeada = new PilhaEstaticaWindow();
-            pilhaencadeada.Show();
+            PilhaEstaticaWindow pilhaestatica = new PilhaEstaticaWindow();
+            pilhaestatica.Show();
         }
     }
 }
