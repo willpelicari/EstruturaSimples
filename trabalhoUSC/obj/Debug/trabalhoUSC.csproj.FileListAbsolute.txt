@@ -79,3 +79,7 @@ C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Deb
 C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
 C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe
 C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.pdb
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.baml
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\ListaEstatica.baml
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.g.cs
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\ListaEstatica.g.cs
