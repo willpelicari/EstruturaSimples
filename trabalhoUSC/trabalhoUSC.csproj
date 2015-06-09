@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -55,6 +57,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FilaEncadeada.cs" />
+    <Compile Include="FilaEncadeada.xaml.cs" />
     <Compile Include="FilaEstatica.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -62,11 +66,16 @@
       <DependentUpon>FilaEstatica.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListaEstatica.cs" />
+    <Compile Include="ListaEstatica.xaml.cs" />
     <Compile Include="PilhaEstatica.cs" />
     <Compile Include="PilhaEstatica.xaml.cs" />
     <Compile Include="TrabalhoUsc.xaml.cs">
       <DependentUpon>TrabalhoUsc.xaml</DependentUpon>
     </Compile>
+    <Page Include="FilaEncadeada.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="FilaEstatica.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,6 +84,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ListaEstatica.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="PilhaEstatica.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -30,7 +30,7 @@ namespace trabalhoUSC
         {
             for (int i = 0; i < Maximo; i++)
             {
-                if (elementos[i].Equals(pesquisa))
+                if (string.Equals(elementos[i], pesquisa, StringComparison.OrdinalIgnoreCase))
                     return i;
             }
             return 0;

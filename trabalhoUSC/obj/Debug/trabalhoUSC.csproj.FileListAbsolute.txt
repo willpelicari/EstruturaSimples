@@ -35,3 +35,47 @@ C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\ob
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.baml
 C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.g.cs
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe.config
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.exe
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.pdb
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.pdb
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csprojResolveAssemblyReference.cache
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.baml
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEstatica.baml
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.baml
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.g.cs
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEstatica.g.cs
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.g.cs
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\App.g.cs
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC_MarkupCompile.cache
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.g.resources
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.Properties.Resources.resources
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csproj.GenerateResource.Cache
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\ListaEstatica.baml
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\ListaEstatica.g.cs
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.baml
+C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe.config
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.exe
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.pdb
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csprojResolveAssemblyReference.cache
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.baml
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.baml
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\ListaEstatica.baml
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEstatica.baml
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.baml
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEncadeada.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\FilaEstatica.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\ListaEstatica.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\PilhaEstatica.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\TrabalhoUsc.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\App.g.cs
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC_MarkupCompile.cache
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.g.resources
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.Properties.Resources.resources
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csproj.GenerateResource.Cache
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.pdb

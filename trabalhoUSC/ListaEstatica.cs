@@ -29,12 +29,14 @@ namespace trabalhoUSC
         }
         public int getElemento(string pesquisa)
         {
+            if (pesquisa.Length == 0)
+                return -1;
             for (int i = 0; i < Maximo; i++)
             {
-                if (elementos[i].Equals(pesquisa))
+                if (string.Equals(elementos[i], pesquisa, StringComparison.OrdinalIgnoreCase))
                     return i;
             }
-            return 0;
+            return -1;
         }
         public void setElemento(int posicao,string newText)
         {
@@ -45,26 +47,49 @@ namespace trabalhoUSC
                 elementos[posicao] = newText;
             }                
         }
-        public void Add(string valor)
+        public void Add(string valor, int posicao)
         {
             if (qtde == Maximo)
             {
                 MessageBox.Show("A lista ta cheia!", "Lista Cheia", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            elementos[qtde] = valor;
-            qtde++;
+            if (posicao > qtde)
+                MessageBox.Show("Posição Inválida!");
+            else
+            {
+                if (posicao < qtde)
+                    for (int i = qtde - 1; posicao <= i; i--)
+                        elementos[i + 1] = elementos[i];
+                elementos[posicao] = valor;
+                qtde++;
+            }
         }
-        public void Delete()
+        public void Delete(int posicao)
         {
             if (qtde == 0)
             {
-                MessageBox.Show("A lista está vazia, não?", "Pilha Vazia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("A lista está vazia, não?", "Lista Vazia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            MessageBox.Show('"' + elementos[qtde-1] + "\" saiu da lista.", "Saindo da lista", MessageBoxButtons.OK);
-            elementos[qtde - 1] = "";
-            qtde--;
+            if (posicao > qtde)
+                MessageBox.Show("Posição Inválida!");
+            else
+            {
+                MessageBox.Show('"' + elementos[posicao] + "\" saiu da lista.", "Saindo da lista", MessageBoxButtons.OK);
+                if (posicao < qtde)
+                    for (int i = posicao; i < qtde - 1; i++)
+                        elementos[i] = elementos[i + 1];
+                elementos[qtde - 1] = "";
+                qtde--;
+            }
+        }
+        public void Alterar(string valor, int posicao)
+        {
+            if ((posicao > qtde) && (posicao < 0))
+                MessageBox.Show("Posição inválida!");
+            else
+                elementos[posicao] = valor;
         }
     }
 }

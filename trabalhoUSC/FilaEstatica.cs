@@ -30,10 +30,10 @@ namespace trabalhoUSC
         {
             for (int i = 0; i < Maximo; i++)
             {
-                if (elementos[i].Equals(pesquisa))
+                if (string.Equals(elementos[i], pesquisa, StringComparison.OrdinalIgnoreCase))
                     return i;
             }
-            return 0;
+            return -1;
         }
         public void setElemento(string newText)
         {
@@ -48,6 +48,10 @@ namespace trabalhoUSC
             }
             elementos[qtde] = valor;
             qtde++;
+        }
+        public void Alterar(string valor)
+        {
+            elementos[0] = valor;
         }
         public void Delete()
         {
