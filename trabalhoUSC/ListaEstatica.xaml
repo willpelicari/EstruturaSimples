@@ -1,0 +1,26 @@
+﻿<Window x:Class="trabalhoUSC.ListaEstaticaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lista do Cinema - Lista Estática" Height="350" Width="525">
+    <Grid>
+        <ListBox x:Name="listBoxLista" HorizontalAlignment="Left" Height="59" Margin="24,146,0,0" VerticalAlignment="Top" Width="466">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+        <Button x:Name="btnAdd" Content="Adicionar Ingrediente" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
+        <Button x:Name="btnDelete" Content="Remover Ingrediente" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
+        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="24,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" KeyDown="enterPessoa"/>
+        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
+        <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label Content="Lista de Ingredientes:" HorizontalAlignment="Left" Margin="22,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EscrevaNome" Content="Escreva um ingrediente:" HorizontalAlignment="Left" Margin="24,210,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,73,0,0"><Run Text="A estrutura &quot;"/><Run Text="L"/><Run Text="ista&quot; se assemelha bastante com uma receita de bolo. Cada ingrediente é um 'dado', voce pode adicionar ou remover qualquer ingrediente em qualquer momento. Adicione alguns ingredientes abaixo e veja como uma lista funciona."/></TextBlock>
+        <Label Content="Lista" HorizontalAlignment="Left" Margin="237,36,0,0" VerticalAlignment="Top" Width="70" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnAlterar" Content="Alterar Ingrediente" HorizontalAlignment="Left" Margin="181,264,0,0" VerticalAlignment="Top" Width="150" Click="btnAlterar_Click"/>
+        <Button x:Name="btnProcurar" Content="Procurar Ingrediente" HorizontalAlignment="Left" Margin="181,289,0,0" VerticalAlignment="Top" Width="150" Click="btnProcurar_Click"/>
+
+    </Grid>
+</Window>

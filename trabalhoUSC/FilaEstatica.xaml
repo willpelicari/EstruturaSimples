@@ -10,15 +10,17 @@
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
         </ListBox>
-        <Button x:Name="btnAdd" Content="Adicionar Pessoa" HorizontalAlignment="Left" Margin="55,256,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
-        <Button x:Name="btnDelete" Content="Andar Fila" HorizontalAlignment="Left" Margin="55,281,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
-        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="130,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" KeyDown="enterPessoa"/>
+        <Button x:Name="btnAdd" Content="Adicionar Pessoa" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
+        <Button x:Name="btnDelete" Content="Andar Fila" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
+        <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="38,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" KeyDown="enterPessoa"/>
         <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
         <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
         <Label Content="Fila do Cinema:" HorizontalAlignment="Left" Margin="22,120,0,0" VerticalAlignment="Top"/>
-        <Label Content="Escreva um nome:" HorizontalAlignment="Left" Margin="22,225,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EscrevaNome" Content="Escreva um nome:" HorizontalAlignment="Left" Margin="33,205,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="A Estrutura &quot;Fila&quot; é bastante conhecida no dia-a-dia. No banco, no cinema, na saída da universidade você está fazendo parte de uma estrutura onde o 'dado' é você. Adicione alguns nomes abaixo e veja como uma fila naturalmente funciona." VerticalAlignment="Top" Margin="24,73,0,0"/>
         <Label Content="FILA" HorizontalAlignment="Left" Margin="237,36,0,0" VerticalAlignment="Top" Width="70" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnAlterar" Content="Alterar Pessoa" HorizontalAlignment="Left" Margin="181,264,0,0" VerticalAlignment="Top" Width="150" Click="btnAlterar_Click"/>
+        <Button x:Name="btnProcurar" Content="Procurar Pessoa" HorizontalAlignment="Left" Margin="181,289,0,0" VerticalAlignment="Top" Width="150" Click="btnProcurar_Click"/>
 
     </Grid>
 </Window>
