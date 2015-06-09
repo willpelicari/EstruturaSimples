@@ -4,6 +4,7 @@
         Title="Trabalho USC - Linguagens de Programação" Height="320" Width="550">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="19,128,0,0" TextWrapping="Wrap" Text="Escolha uma estrutura abstrata abaixo:" VerticalAlignment="Top" Width="267" Grid.ColumnSpan="2"/>
+<<<<<<< HEAD
         <Button x:Name="filaEstaticaButton" Content="Fila Estatica" HorizontalAlignment="Left" Margin="34,159,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="filaEstaticaButton_Click"/>
         <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="123" Grid.ColumnSpan="2" Margin="220,0,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
         <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="161,54,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="228"/>
@@ -12,5 +13,14 @@
         <Button x:Name="pilhaEstaticaButton" Content="Pilha Estatica" HorizontalAlignment="Left" Margin="361,159,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="pilhaEstaticaButton_Click"/>
         <Button x:Name="ListaEstaticaButton" Content="Lista Estatica" HorizontalAlignment="Left" Margin="198,159,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="listaEstaticaButton_Click"/>
         <Button x:Name="filaEncadeadaButton" Content="Fila Encadeada" HorizontalAlignment="Left" Margin="34,207,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="filaEncadeadaButton_Click"/>
+=======
+        <Button x:Name="filaEstaticaButton" Content="Fila Estatica" HorizontalAlignment="Left" Margin="19,159,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="filaEstaticaButton_Click"/>
+        <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="123" Grid.ColumnSpan="2" Margin="220,0,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
+        <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="161,54,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="228"/>
+        <Label Content="Eduardo Oliveira - 414090" HorizontalAlignment="Left" Margin="105,80,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Wilton Peliçari - 317293" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="1"/>
+        <Button x:Name="pilhaEstaticaButton" Content="Pilha Estatica" HorizontalAlignment="Left" Margin="189,159,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="pilhaEstaticaButton_Click" Grid.ColumnSpan="2"/>
+
+>>>>>>> origin/master
     </Grid>
 </Window>
