@@ -25,6 +25,29 @@ namespace trabalhoUSC
         }
 
         private void filaEstaticaButton_Click(object sender, RoutedEventArgs e)
+<<<<<<< HEAD
+        {
+            FilaEstaticaWindow filaestatica = new FilaEstaticaWindow();
+            filaestatica.Show();
+        }
+
+        private void pilhaEstaticaButton_Click(object sender, RoutedEventArgs e)
+        {
+            PilhaEstaticaWindow pilhaestatica = new PilhaEstaticaWindow();
+            pilhaestatica.Show();
+        }
+
+        private void listaEstaticaButton_Click(object sender, RoutedEventArgs e)
+        {
+            ListaEstaticaWindow listaestatica = new ListaEstaticaWindow();
+            listaestatica.Show();
+        }
+
+        private void filaEncadeadaButton_Click(object sender, RoutedEventArgs e)
+        {
+            FilaEncadeadaWindow filaencadeada = new FilaEncadeadaWindow();
+            filaencadeada.Show();
+=======
         {
             FilaEstaticaWindow filaestatica = new FilaEstaticaWindow();
             filaestatica.Show();
@@ -55,6 +78,7 @@ namespace trabalhoUSC
             PilhaEstaticaWindow pilhaestatica = new PilhaEstaticaWindow();
             pilhaestatica.Show();
 >>>>>>> origin/master
+>>>>>>> master
         }
     }
 }

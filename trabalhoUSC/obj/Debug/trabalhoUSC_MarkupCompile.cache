@@ -9,6 +9,14 @@ trabalhoUSC
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+C:\Users\Eduardo Oliveira\Documents\GitHub\trabalhoEstruturaDados\trabalhoUSC\App.xaml
+5267189610
+
+13-277140473
+151971426412
+FilaEncadeada.xaml;FilaEstatica.xaml;ListaEstatica.xaml;PilhaEstatica.xaml;TrabalhoUsc.xaml;
+=======
 C:\Rede\Trabalho USC\trabalhoEstruturaDados\trabalhoUSC\App.xaml
 5267189610
 
@@ -21,6 +29,7 @@ FilaEncadeada.xaml;FilaEstatica.xaml;ListaEstatica.xaml;PilhaEstatica.xaml;Traba
 141012385901
 FilaEstatica.xaml;PilhaEstatica.xaml;TrabalhoUsc.xaml;
 >>>>>>> origin/master
+>>>>>>> master
 
 False
 
