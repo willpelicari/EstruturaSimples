@@ -63,6 +63,46 @@ namespace trabalhoUSC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap can_stock_photo_csp9940131 {
+            get {
+                object obj = ResourceManager.GetObject("can_stock_photo_csp9940131", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CoolClips_vc006313 {
+            get {
+                object obj = ResourceManager.GetObject("CoolClips_vc006313", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fogo_batata_quente_jonas_e_arly_lara_romeo_341646 {
+            get {
+                object obj = ResourceManager.GetObject("fogo_batata_quente_jonas_e_arly_lara_romeo_341646", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tall_stack_of_books {
+            get {
+                object obj = ResourceManager.GetObject("tall_stack_of_books", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap usclogo {
             get {
                 object obj = ResourceManager.GetObject("usclogo", resourceCulture);

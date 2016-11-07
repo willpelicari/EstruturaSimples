@@ -79,3 +79,10 @@ C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Deb
 C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\usclogo.jpg
 C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe
 C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.pdb
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\CoolClips_vc006313.jpg
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\can-stock-photo_csp9940131.jpg
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\tall-stack-of-books.png
+C:\Users\WiltonPelicari\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\Images\fogo_batata_quente_jonas_e_arly_lara_romeo-341646.jpg
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe.config
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.exe
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.pdb

@@ -79,7 +79,7 @@ namespace trabalhoUSC
             exibirPessoas();
         }
 
-        /*private void btnAlterar_Click(object sender, RoutedEventArgs e)
+        private void btnAlterar_Click(object sender, RoutedEventArgs e)
         {
             if (alterar)
             {
@@ -103,9 +103,9 @@ namespace trabalhoUSC
                     MessageBox.Show("Sua Fila está vazia.", "Fila Vazia");
                 }
             }
-        }*/
+        }
 
-        /*private void btnProcurar_Click(object sender, RoutedEventArgs e)
+        private void btnProcurar_Click(object sender, RoutedEventArgs e)
         {
             if (pesquisa)
             {
@@ -128,25 +128,21 @@ namespace trabalhoUSC
                     MessageBox.Show("Sua Fila está vazia.", "Fila Vazia");
                 }
             }
-        }*/
-        /*private void Procurar(string Nome)
+        }
+
+        public void Procurar(string Nome)
         {
             int posicaoEncontrada = Fila.getElemento(Nome);
             exibirPessoas();
             if (posicaoEncontrada > -1)
             {
                 listBoxFila.SelectedIndex = posicaoEncontrada;
-                MessageBox.Show(Nome + " é o " + Convert.ToString(posicaoEncontrada+1) + "º da fila. Corre que o filme ja ja começa!", "Pessoa Encontrada");
+                MessageBox.Show(Nome + " é o " + Convert.ToString(posicaoEncontrada + 1) + "º da fila. Você não vai brincar? Clique em Batata Quente!", "Pessoa Encontrada");
             }
             else
             {
-                MessageBox.Show(Nome + " não foi encontrado na fila. (Acho que ele/ela furou contigo...)", "Furo Encontrado", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show(Nome + " não foi encontrado na fila. (Acho que ele não quis brincar...)", "Pessoa não encontrada", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
-            
-        }*/
-        public void Procurar(string Texto)
-        {
-            //TODO
         }
 
         public void AtualizaRoda()
@@ -205,44 +201,13 @@ namespace trabalhoUSC
         {
             string[] elementos = Fila.Mostrar();
             int Tag = int.Parse(BatataQuente.Tag.ToString());
+            if (elementos.Length == 0) MessageBox.Show("Fila Vazia!");
             if(Tag == elementos.Length-1){
                 BatataQuente.Tag = -1;
             }else{
                 BatataQuente.Tag = Tag + 1;
             }
             AtualizaRoda();
-            /*if(Tag < elementos.Length && Tag != -1){
-                //Segundo clique ou mais. chame ate chegar ao inicio
-                Atual.Text = elementos[Tag];
-                if (Tag == 0) {
-                    Anterior.Text = elementos[elementos.Length - 1];
-                    Proximo.Text = elementos[Tag + 1];
-                }
-                else
-                {
-                    Anterior.Text = elementos[Tag - 1];
-                    if (Tag == elementos.Length-1) Proximo.Text = elementos[0];
-                    else Proximo.Text = elementos[Tag + 1];
-                }
-                BatataQuente.Tag = Tag + 1;
-            }else{
-                //Primeiro clique ou deu a volta, chame primeiro elemento
-                if (Tag == -1)
-                {
-                    Anterior.Text = elementos[0];
-                    Atual.Text = elementos[1];
-                    Proximo.Text = elementos[2];
-                    BatataQuente.Tag = 2;
-                }
-                else
-                {
-                    Anterior.Text = elementos[Tag - 1];
-                    Atual.Text = elementos[0];
-                    Proximo.Text = elementos[1];
-                    BatataQuente.Tag = 1;
-                }
-                
-            }*/
         }
     }
 }

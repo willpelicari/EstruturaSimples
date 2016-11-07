@@ -111,8 +111,28 @@ namespace trabalhoUSC
             return retornar;
         }
 
-        public void Alterar(string Texto){
-            //TODO
+        public string getElemento(int posicao)
+        {
+            string[] elementos = Mostrar();
+            if (elementos.Length > 0) return elementos[posicao];
+            return "";
+            
+        }
+
+        public int getElemento(string pesquisa)
+        {
+            string[] elementos = Mostrar();
+            for (int i = 0; i < Contador(); i++)
+            {
+                if (string.Equals(elementos[i], pesquisa, StringComparison.OrdinalIgnoreCase))
+                    return i;
+            }
+            return -1;
+        }
+
+        public void Alterar(string Valor){
+            string[] elementos = Mostrar();
+            Inicio.nome = Valor;
         }
 
     }
