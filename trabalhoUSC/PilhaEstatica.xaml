@@ -11,7 +11,7 @@
         <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
         <Label Content="Escreva um Prato:" HorizontalAlignment="Left" Margin="139,220,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="125,115,0,0" Width="374"><Run Text="A Estrutura &quot;"/><Run Language="pt-br" Text="Pilha"/><Run Text="&quot; é ba"/><Run Language="pt-br" Text="stante conhecida no dever de casa menos desejado por todos"/><Run Text=". "/><Run Language="pt-br" Text="Nas louças sujas"/><Run Text=", "/><Run Language="pt-br" Text="nas cartas do baralho"/><Run Text=", "/><Run Language="pt-br" Text="no montinho nos seus amigos."/><Run Text=" "/><Run Language="pt-br" Text="Imagine que você está em um restaurante e pratos estão sendo adicionado nessa pilha ao lado"/><Run Text=". "/><Run Language="pt-br" Text="Adicione alguns pratos do seu restaurante abaixo para entender como funciona."/><Run Text=""/></TextBlock>
-        <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label Content="Trabalho - Engenharia de Software II" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
         <Label Content="PILHA" HorizontalAlignment="Left" Margin="261,60,0,0" VerticalAlignment="Top" Width="70" FontSize="20" FontWeight="Bold"/>
 
     </Grid>

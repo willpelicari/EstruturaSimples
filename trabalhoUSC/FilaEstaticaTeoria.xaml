@@ -1,0 +1,13 @@
+﻿<Window x:Class="trabalhoUSC.FilaEstaticaTeoria"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fila Estatica - Teoria" Height="350" Width="525">
+    <Grid>
+        <Label Content="Trabalho - Engenharia de Software II" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <Image HorizontalAlignment="Left" Height="217" VerticalAlignment="Top" Width="155" Margin="27,58,0,0" Source="pack://siteoforigin:,,,/Images/can-stock-photo_csp9940131.jpg" RenderTransformOrigin="-0.837,0.391"/>
+        <TextBox HorizontalAlignment="Left" Height="194" Margin="207,58,0,0" TextWrapping="Wrap" Text="Na estrutura de fila, os acessos aos elementos também seguem uma regra. O que diferencia a fila da pilha é a ordem de saída dos elementos: enquanto na pilha 'o último que entra é o primeiro que sai', na fila 'o primeiro que entra é o primeiro que sai' (a sigla FIFO – first in, first out – é usada para descrever essa estratégia). A idéia fundamental da fila é que só podemos inserir um novo elemento no final da fila e só podemos retirar o elemento do início. A estrutura de fila é uma analogia natural com o conceito de fila que usamos no nosso dia a dia: quem primeiro entra numa fila é o primeiro a ser atendido (a sair da fila). Um exemplo de utilização em computação é a implementação de uma fila de impressão. Se uma impressora é compartilhada por várias máquinas, deve-se adotar uma estratégia para determinar que documento será impresso primeiro. A estratégia mais simples é tratar todas as requisições com a mesma prioridade e imprimir os documentos na ordem em que foram submetidos – o primeiro submetido é o primeiro a ser impresso. De modo análogo ao que fizemos com a estrutura de pilha, neste capítulo discutiremos duas estratégias para a implementação de uma estrutura de fila: usando vetor e usando lista encadeada. Para implementar uma fila, devemos ser capazes de inserir novos elementos em uma extremidade, o fim, e retirar elementos da outra extremidade, início." VerticalAlignment="Top" Width="284" VerticalScrollBarVisibility="Visible" IsReadOnly="True"/>
+        <Button x:Name="filaEstaticaExemplo" Content="Ver Exemplo" HorizontalAlignment="Left" Margin="350,270,0,0" VerticalAlignment="Top" Width="145" Height="29" Click="filaEstaticaExemplo_Click"/>
+        <Button x:Name="BuscarReferencia" Content="Buscar Referência" HorizontalAlignment="Left" Margin="200,270,0,0" VerticalAlignment="Top" Width="145" Height="29" />
+        <Label Content="FILA" HorizontalAlignment="Left" Margin="421,21,0,0" VerticalAlignment="Top" Width="70" FontSize="20" FontWeight="Bold"/>
+    </Grid>
+</Window>

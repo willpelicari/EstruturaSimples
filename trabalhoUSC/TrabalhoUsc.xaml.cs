@@ -26,19 +26,19 @@ namespace trabalhoUSC
 
         private void filaEstaticaButton_Click(object sender, RoutedEventArgs e)
         {
-            FilaEstaticaWindow filaestatica = new FilaEstaticaWindow();
+            FilaEstaticaTeoria filaestatica = new FilaEstaticaTeoria();
             filaestatica.Show();
         }
 
         private void pilhaEstaticaButton_Click(object sender, RoutedEventArgs e)
         {
-            PilhaEstaticaWindow pilhaestatica = new PilhaEstaticaWindow();
+            PilhaEstaticaTeoria pilhaestatica = new PilhaEstaticaTeoria();
             pilhaestatica.Show();
         }
 
         private void listaEstaticaButton_Click(object sender, RoutedEventArgs e)
         {
-            ListaEstaticaWindow listaestatica = new ListaEstaticaWindow();
+            ListaEstaticaTeoria listaestatica = new ListaEstaticaTeoria();
             listaestatica.Show();
         }
 

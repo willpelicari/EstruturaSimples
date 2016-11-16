@@ -14,7 +14,7 @@
         <Button x:Name="btnDelete" Content="Remover Ingrediente" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
         <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="24,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" KeyDown="enterPessoa"/>
         <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
-        <Label Content="Trabalho - Linguagens de Programação I" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label Content="Trabalho - Engenharia de Software II" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
         <Label Content="Lista de Ingredientes:" HorizontalAlignment="Left" Margin="22,120,0,0" VerticalAlignment="Top"/>
         <Label x:Name="EscrevaNome" Content="Escreva um ingrediente:" HorizontalAlignment="Left" Margin="24,210,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,73,0,0"><Run Text="A estrutura &quot;"/><Run Text="L"/><Run Text="ista&quot; se assemelha bastante com uma receita de bolo. Cada ingrediente é um 'dado', voce pode adicionar ou remover qualquer ingrediente em qualquer momento. Adicione alguns ingredientes abaixo e veja como uma lista funciona."/></TextBlock>

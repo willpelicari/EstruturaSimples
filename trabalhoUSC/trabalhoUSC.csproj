@@ -65,10 +65,19 @@
     <Compile Include="FilaEstatica.xaml.cs">
       <DependentUpon>FilaEstatica.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FilaEstaticaTeoria.xaml.cs">
+      <DependentUpon>FilaEstaticaTeoria.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListaEstatica.cs" />
     <Compile Include="ListaEstatica.xaml.cs" />
+    <Compile Include="ListaEstaticaTeoria.xaml.cs">
+      <DependentUpon>ListaEstaticaTeoria.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PilhaEstatica.cs" />
     <Compile Include="PilhaEstatica.xaml.cs" />
+    <Compile Include="PilhaEstaticaTeoria.xaml.cs">
+      <DependentUpon>PilhaEstaticaTeoria.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TrabalhoUsc.xaml.cs">
       <DependentUpon>TrabalhoUsc.xaml</DependentUpon>
     </Compile>
@@ -84,13 +93,25 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="FilaEstaticaTeoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListaEstatica.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="ListaEstaticaTeoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PilhaEstatica.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PilhaEstaticaTeoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TrabalhoUsc.xaml">
       <SubType>Designer</SubType>
