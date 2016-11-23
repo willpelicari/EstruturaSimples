@@ -29,5 +29,14 @@ namespace trabalhoUSC
             ListaEstaticaWindow listaestatica = new ListaEstaticaWindow();
             listaestatica.Show();
         }
+
+        private void BuscarReferencia_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://www.google.com.br/?q=lista+estatica+estrutura+de+dados");
+            }
+            catch { }
+        }
     }
 }

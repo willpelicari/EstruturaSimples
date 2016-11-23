@@ -29,5 +29,14 @@ namespace trabalhoUSC
             FilaEncadeadaWindow filaencadeada = new FilaEncadeadaWindow();
             filaencadeada.Show();
         }
+
+        private void BuscarReferencia_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://www.google.com.br/?q=fila+encadeada+estrutura+de+dados");
+            }
+            catch { }
+        }
     }
 }

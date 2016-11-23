@@ -30,5 +30,14 @@ namespace trabalhoUSC
             filaestatica.Show();
         }
 
+        private void BuscarReferencia_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://www.google.com.br/?q=fila+estatica+estrutura+de+dados");
+            }
+            catch { }
+        }
+
     }
 }

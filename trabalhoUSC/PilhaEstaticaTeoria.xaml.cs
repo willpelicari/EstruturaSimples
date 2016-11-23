@@ -29,5 +29,14 @@ namespace trabalhoUSC
             PilhaEstaticaWindow pilhaestatica = new PilhaEstaticaWindow();
             pilhaestatica.Show();
         }
+
+        private void BuscarReferencia_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://www.google.com.br/?q=pilha+estatica+estrutura+de+dados");
+            }
+            catch { }
+        }
     }
 }
