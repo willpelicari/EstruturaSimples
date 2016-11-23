@@ -36,6 +36,12 @@ namespace trabalhoUSC
             pilhaestatica.Show();
         }
 
+        private void SobreButton_Click(object sender, RoutedEventArgs e)
+        {
+            SobreEstruturaSimples sobre = new SobreEstruturaSimples();
+            sobre.Show();
+        }
+
         private void listaEstaticaButton_Click(object sender, RoutedEventArgs e)
         {
             ListaEstaticaTeoria listaestatica = new ListaEstaticaTeoria();
@@ -44,7 +50,7 @@ namespace trabalhoUSC
 
         private void filaEncadeadaButton_Click(object sender, RoutedEventArgs e)
         {
-            FilaEncadeadaWindow filaencadeada = new FilaEncadeadaWindow();
+            FilaEncadeadaTeoria filaencadeada = new FilaEncadeadaTeoria();
             filaencadeada.Show();
         }
     }

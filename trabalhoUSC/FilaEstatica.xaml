@@ -13,7 +13,7 @@
         <Button x:Name="btnAdd" Content="Adicionar Pessoa" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
         <Button x:Name="btnDelete" Content="Andar Fila" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
         <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="23" Margin="38,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" KeyDown="enterPessoa"/>
-        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
+        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="101" Margin="416,268,0,0" Source="/Images/usclogo.jpg"/>
         <Label Content="Trabalho - Engenharia de Software II" HorizontalAlignment="Left" Margin="143,10,0,0" VerticalAlignment="Top" Width="228"/>
         <Label Content="Fila do Cinema:" HorizontalAlignment="Left" Margin="22,120,0,0" VerticalAlignment="Top"/>
         <Label x:Name="EscrevaNome" Content="Escreva um nome:" HorizontalAlignment="Left" Margin="33,205,0,0" VerticalAlignment="Top"/>

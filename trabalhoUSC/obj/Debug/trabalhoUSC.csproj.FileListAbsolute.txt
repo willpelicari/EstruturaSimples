@@ -115,3 +115,7 @@ C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC
 C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.g.resources
 C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.Properties.Resources.resources
 C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.csproj.GenerateResource.Cache
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.exe.manifest
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\bin\Debug\trabalhoUSC.application
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.exe.manifest
+C:\Users\WiltonPelicari\Desktop\Desktop\Elvio\trabalhoEstruturaDados\trabalhoUSC\obj\Debug\trabalhoUSC.application

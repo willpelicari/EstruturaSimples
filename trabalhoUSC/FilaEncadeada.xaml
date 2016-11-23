@@ -6,7 +6,7 @@
         <Button x:Name="btnAdd" Content="Adicionar Pessoa" HorizontalAlignment="Left" Margin="309,212,0,0" VerticalAlignment="Top" Width="150" Click="btnAdd_Click"/>
         <Button x:Name="btnDelete" Content="Remover Pessoa" HorizontalAlignment="Left" Margin="478,212,0,0" VerticalAlignment="Top" Width="150" Click="btnDelete_Click"/>
         <TextBox x:Name="Texto" HorizontalAlignment="Left" Height="24" Margin="29,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" KeyDown="enterPessoa"/>
-        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="100" Margin="542,460,0,0" Source="pack://siteoforigin:,,,/Images/usclogo.jpg"/>
+        <Image HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="100" Margin="542,460,0,0" Source="/Images/usclogo.jpg"/>
         <Label Content="Trabalho - Engenharia de Software II" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="228"/>
         <Label x:Name="EscrevaNome" Content="Escreva um nome:" HorizontalAlignment="Left" Margin="24,206,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="24,73,0,0"><Run Text="A Estrutura &quot;Fila"/><Run Language="pt-br" Text=" Encadeada"/><Run Text="&quot; "/><Run Language="pt-br" Text="é uma fila onde os elementos se conectam guardando como referência o inicio da fila, o elemento anterior e o posterior. Nessa exemplo, estamos num circulo de amigos brincando de Batata Quente em uma fila circular, onde o inicio e fim são conectados. Insira os seus amigos na roda e vá apertando o botão &quot;Batata Quente e entenda como uma fila encadeada funciona&quot;"/></TextBlock>
